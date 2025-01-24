@@ -263,6 +263,14 @@ nav a:hover {
   background-color: #a74106;
 }
 
+.contact-person img {
+  border-radius: 50%; 
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #fff; 
+}
+
 .social-icons {
   text-align: center;
   margin-top: 20px;
