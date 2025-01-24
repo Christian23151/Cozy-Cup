@@ -186,6 +186,13 @@ nav a:hover {
   font-size: 16px;
 }
 
+.menu-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
 .feature-on-menu {
   margin-top: 40px;
   text-align: center;
@@ -264,11 +271,11 @@ nav a:hover {
 }
 
 .contact-person img {
-  border-radius: 50%; 
+  border-radius: 50%;
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border: 2px solid #fff; 
+  border: 2px solid #fff;
 }
 
 .social-icons {
