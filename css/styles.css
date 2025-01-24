@@ -235,6 +235,37 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+.contact .contact-person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Space between contact persons */
+  margin-bottom: 20px;
+}
+
+.contact-person img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.contact-person p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.contact-person a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-person a:hover {
+  color: #a74106;
+}
+
 .contact form {
   max-width: 400px;
   margin: 0 auto;
@@ -268,14 +299,6 @@ nav a:hover {
 
 .contact button:hover {
   background-color: #a74106;
-}
-
-.contact-person img {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border: 2px solid #fff;
 }
 
 .social-icons {
