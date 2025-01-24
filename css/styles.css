@@ -205,14 +205,18 @@ nav a:hover {
 /* About Us section styles */
 .about {
   padding: 100px 20px;
-  background-color: #ede4d6;
+  background-color: #f4e8d7;
   text-align: center;
+  color: #4c3c32;
+  font-family: 'Hind Madurai', serif;
+  line-height: 1.8;
 }
 
 .about h2 {
-  font-size: 30px;
+  font-size: 36px;
   margin-bottom: 20px;
-  color: #4c3c32;
+  color: #a74106;
+  font-weight: bold;
 }
 
 .about p {
@@ -221,6 +225,52 @@ nav a:hover {
   margin: 0 auto;
   line-height: 1.6;
   color: #5a4a3f;
+  margin-bottom: 20px;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+
+.about img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about .about-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.about .about-content > div {
+  width: 45%;
+  text-align: left;
+}
+
+.about .about-content h3 {
+  font-size: 24px;
+  color: #a74106;
+  margin-bottom: 10px;
+}
+
+.about .about-content p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .about .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about .about-content > div {
+    width: 100%;
+  }
 }
 
 .contact {
@@ -240,7 +290,7 @@ nav a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 30px; /* Space between contact persons */
+  gap: 30px; 
   margin-bottom: 20px;
 }
 
