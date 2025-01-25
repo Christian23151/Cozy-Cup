@@ -142,7 +142,6 @@ nav a:hover {
   background-color: #7e685b;
 }
 
-/* Menu section styles */
 .menu {
   padding: 60px 20px;
   background-color: #7e685b;
@@ -202,13 +201,12 @@ nav a:hover {
   border-radius: 10px;
 }
 
-/* About Us section styles */
 .about {
   padding: 100px 20px;
   background-color: #f4e8d7;
   text-align: center;
   color: #4c3c32;
-  font-family: 'Hind Madurai', serif;
+  font-family: "Hind Madurai", serif;
   line-height: 1.8;
 }
 
@@ -290,7 +288,7 @@ nav a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 30px; 
+  gap: 30px;
   margin-bottom: 20px;
 }
 
